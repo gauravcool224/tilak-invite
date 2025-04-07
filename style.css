@@ -1,46 +1,49 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: url('https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
-    background-size: cover;
-    font-family: 'Poppins', sans-serif;
-    color: #333;
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+  background-image: url('ganesh_background.jpg'); /* गणेश जी का फोटो लगाइए */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  color: #4e342e;
 }
 
-.invitation-card {
-    background: rgba(255, 255, 255, 0.85);
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-    width: 90%;
-    max-width: 500px;
-    animation: fadeIn 2s ease-in;
+.container {
+  background: rgba(255, 255, 255, 0.85);
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 700px;
+  border-radius: 20px;
+  text-align: center;
+  border: 5px solid #d4af37;
 }
 
 h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    color: #b03a2e;
+  font-size: 40px;
+  color: #b71c1c;
+  margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #21618c;
+  font-size: 30px;
+  margin-bottom: 5px;
 }
 
-p {
-    font-size: 1.2em;
-    margin: 10px 0;
+h3 {
+  font-size: 28px;
+  color: #6a1b9a;
+  margin-bottom: 10px;
 }
 
-/* Animation */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
+.details {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 22px;
+  color: #2e7d32;
 }
